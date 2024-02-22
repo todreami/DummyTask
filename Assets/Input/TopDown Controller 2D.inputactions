@@ -121,15 +121,26 @@
                     "isPartOfComposite": false
                 },
                 {
-                    "name": "",
-                    "id": "7abf73d2-8a7d-4326-a6fc-b53a3e25b94d",
-                    "path": "<Keyboard>/space",
+                    "name": "2D Vector",
+                    "id": "c29ea8a9-1fc0-4999-a543-c0034e1925e3",
+                    "path": "2DVector",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
                     "action": "Jump",
-                    "isComposite": false,
+                    "isComposite": true,
                     "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "4bd72815-8a67-4050-9bce-0760e5454a93",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard&Mouse",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": true
                 }
             ]
         }
