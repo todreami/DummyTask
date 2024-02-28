@@ -1,17 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 
-public class Spine : MonoBehaviour
+public class flag : MonoBehaviour
 {
+    // Start is called before the first frame update
     private void OnCollisionEnter2D(Collision2D collision)
     {
-
         if (collision.collider.gameObject.tag == "Player")
         {
-            GameManager.instance.GameOver();
+            GameManager.instance.Clear();
         }
-
     }
+
+
+
 }

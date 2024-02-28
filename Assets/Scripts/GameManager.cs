@@ -38,6 +38,11 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 0.0f;
     }
 
+    public void Clear()
+    {
+        SceneManager.LoadScene("EndScene");
+    }
+
 
 
 }
